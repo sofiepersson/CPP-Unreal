@@ -17,5 +17,6 @@ private:
 	TArray<AMyActor*> SpawnedObjects{};
 
 public:
+	UFUNCTION(BlueprintCallable, Category = "SpawnManager")
 	void Spawn(FVector SpawnLocation);
 };

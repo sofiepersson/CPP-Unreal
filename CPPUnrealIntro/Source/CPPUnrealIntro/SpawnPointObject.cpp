@@ -1,25 +1,25 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-
 #include "SpawnPointObject.h"
 #include "Kismet/KismetSystemLibrary.h"
+#include "SpawnManager.h"
 
-// Sets default values
 ASpawnPointObject::ASpawnPointObject()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
 }
 
-// Called when the game starts or when spawned
 void ASpawnPointObject::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	UWorld* World = GetWorld();
+	if (World) {
+		SpawnManager = World->GetSubsystem<SpawnManager>();
+		if (SpawnManager) {
+			SpawnManager->Spawn();
+		}
+	}
 }
 
-// Called every frame
 void ASpawnPointObject::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
