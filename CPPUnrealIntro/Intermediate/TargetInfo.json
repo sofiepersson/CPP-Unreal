@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "CPPUnrealIntro",
+			"Path": "C:\\Users\\sofie\\Documents\\Projects\\CPPUnrealIntro\\CPPUnrealIntro\\Source\\CPPUnrealIntro.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "CPPUnrealIntroEditor",
+			"Path": "C:\\Users\\sofie\\Documents\\Projects\\CPPUnrealIntro\\CPPUnrealIntro\\Source\\CPPUnrealIntroEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
