@@ -1,17 +1,17 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\sofie\\documents\\projects\\cppunrealintro\\cppunrealintro\\source\\cppunrealintro\\spawnmanager.cpp",
+        "Source": "c:\\users\\sofie\\documents\\projects\\cpp-unreal\\cppunrealintro\\source\\cppunrealintro\\spawnmanager.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\sofie\\documents\\projects\\cppunrealintro\\cppunrealintro\\intermediate\\build\\win64\\x64\\cppunrealintroeditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_1.h.pch",
+        "PCH": "c:\\users\\sofie\\documents\\projects\\cpp-unreal\\cppunrealintro\\intermediate\\build\\win64\\x64\\cppunrealintroeditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_1.h.pch",
         "Includes": [
-            "c:\\users\\sofie\\documents\\projects\\cppunrealintro\\cppunrealintro\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\cppunrealintro\\definitions.cppunrealintro.h",
-            "c:\\users\\sofie\\documents\\projects\\cppunrealintro\\cppunrealintro\\source\\cppunrealintro\\spawnmanager.h",
-            "c:\\users\\sofie\\documents\\projects\\cppunrealintro\\cppunrealintro\\source\\cppunrealintro\\myactor.h",
-            "c:\\users\\sofie\\documents\\projects\\cppunrealintro\\cppunrealintro\\source\\cppunrealintro\\rotatorcomponent.h",
-            "c:\\users\\sofie\\documents\\projects\\cppunrealintro\\cppunrealintro\\intermediate\\build\\win64\\unrealeditor\\inc\\cppunrealintro\\uht\\rotatorcomponent.generated.h",
-            "c:\\users\\sofie\\documents\\projects\\cppunrealintro\\cppunrealintro\\intermediate\\build\\win64\\unrealeditor\\inc\\cppunrealintro\\uht\\myactor.generated.h",
-            "c:\\users\\sofie\\documents\\projects\\cppunrealintro\\cppunrealintro\\intermediate\\build\\win64\\unrealeditor\\inc\\cppunrealintro\\uht\\spawnmanager.generated.h"
+            "c:\\users\\sofie\\documents\\projects\\cpp-unreal\\cppunrealintro\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\cppunrealintro\\definitions.cppunrealintro.h",
+            "c:\\users\\sofie\\documents\\projects\\cpp-unreal\\cppunrealintro\\source\\cppunrealintro\\spawnmanager.h",
+            "c:\\users\\sofie\\documents\\projects\\cpp-unreal\\cppunrealintro\\source\\cppunrealintro\\myactor.h",
+            "c:\\users\\sofie\\documents\\projects\\cpp-unreal\\cppunrealintro\\source\\cppunrealintro\\rotatorcomponent.h",
+            "c:\\users\\sofie\\documents\\projects\\cpp-unreal\\cppunrealintro\\intermediate\\build\\win64\\unrealeditor\\inc\\cppunrealintro\\uht\\rotatorcomponent.generated.h",
+            "c:\\users\\sofie\\documents\\projects\\cpp-unreal\\cppunrealintro\\intermediate\\build\\win64\\unrealeditor\\inc\\cppunrealintro\\uht\\myactor.generated.h",
+            "c:\\users\\sofie\\documents\\projects\\cpp-unreal\\cppunrealintro\\intermediate\\build\\win64\\unrealeditor\\inc\\cppunrealintro\\uht\\spawnmanager.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

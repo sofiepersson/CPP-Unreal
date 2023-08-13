@@ -1,11 +1,11 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\sofie\\documents\\projects\\cppunrealintro\\cppunrealintro\\intermediate\\build\\win64\\unrealeditor\\inc\\cppunrealintro\\uht\\cppunrealintro.init.gen.cpp",
+        "Source": "c:\\users\\sofie\\documents\\projects\\cpp-unreal\\cppunrealintro\\intermediate\\build\\win64\\unrealeditor\\inc\\cppunrealintro\\uht\\cppunrealintro.init.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\sofie\\documents\\projects\\cppunrealintro\\cppunrealintro\\intermediate\\build\\win64\\x64\\cppunrealintroeditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_1.h.pch",
+        "PCH": "c:\\users\\sofie\\documents\\projects\\cpp-unreal\\cppunrealintro\\intermediate\\build\\win64\\x64\\cppunrealintroeditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_1.h.pch",
         "Includes": [
-            "c:\\users\\sofie\\documents\\projects\\cppunrealintro\\cppunrealintro\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\cppunrealintro\\definitions.cppunrealintro.h"
+            "c:\\users\\sofie\\documents\\projects\\cpp-unreal\\cppunrealintro\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\cppunrealintro\\definitions.cppunrealintro.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

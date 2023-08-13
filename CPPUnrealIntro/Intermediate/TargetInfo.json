@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "CPPUnrealIntro",
-			"Path": "C:\\Users\\sofie\\Documents\\Projects\\CPPUnrealIntro\\CPPUnrealIntro\\Source\\CPPUnrealIntro.Target.cs",
+			"Path": "C:\\Users\\sofie\\Documents\\Projects\\CPP-Unreal\\CPPUnrealIntro\\Source\\CPPUnrealIntro.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "CPPUnrealIntroEditor",
-			"Path": "C:\\Users\\sofie\\Documents\\Projects\\CPPUnrealIntro\\CPPUnrealIntro\\Source\\CPPUnrealIntroEditor.Target.cs",
+			"Path": "C:\\Users\\sofie\\Documents\\Projects\\CPP-Unreal\\CPPUnrealIntro\\Source\\CPPUnrealIntroEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

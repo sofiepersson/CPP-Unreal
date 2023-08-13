@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\sofie\\Documents\\Projects\\CPPUnrealIntro\\CPPUnrealIntro\\Source\\CPPUnrealIntro\\CPPUnrealIntro.Build.cs",
-		"C:\\Users\\sofie\\Documents\\Projects\\CPPUnrealIntro\\CPPUnrealIntro\\Source\\CPPUnrealIntro.Target.cs",
-		"C:\\Users\\sofie\\Documents\\Projects\\CPPUnrealIntro\\CPPUnrealIntro\\Source\\CPPUnrealIntroEditor.Target.cs"
+		"C:\\Users\\sofie\\Documents\\Projects\\CPP-Unreal\\CPPUnrealIntro\\Source\\CPPUnrealIntro\\CPPUnrealIntro.Build.cs",
+		"C:\\Users\\sofie\\Documents\\Projects\\CPP-Unreal\\CPPUnrealIntro\\Source\\CPPUnrealIntro.Target.cs",
+		"C:\\Users\\sofie\\Documents\\Projects\\CPP-Unreal\\CPPUnrealIntro\\Source\\CPPUnrealIntroEditor.Target.cs"
 	],
 	"EngineVersion": "5.2.0"
 }

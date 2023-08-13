@@ -1,4 +1,4 @@
-C:\Users\sofie\Documents\Projects\CPPUnrealIntro\CPPUnrealIntro\Intermediate\Build\Win64\UnrealEditor\Inc\CPPUnrealIntro\UHT\MyActor.gen.cpp
+C:\Users\sofie\Documents\Projects\CPP-Unreal\CPPUnrealIntro\Intermediate\Build\Win64\UnrealEditor\Inc\CPPUnrealIntro\UHT\MyActor.gen.cpp
 /I .
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Engine\UHT
 /I ..\Shaders\Shared
@@ -272,8 +272,8 @@ C:\Users\sofie\Documents\Projects\CPPUnrealIntro\CPPUnrealIntro\Intermediate\Bui
 /I Runtime\MovieSceneCapture\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationDataController\UHT
 /I Developer\AnimationDataController\Public
-/I C:\Users\sofie\Documents\Projects\CPPUnrealIntro\CPPUnrealIntro\Intermediate\Build\Win64\UnrealEditor\Inc\CPPUnrealIntro\UHT
-/I C:\Users\sofie\Documents\Projects\CPPUnrealIntro\CPPUnrealIntro\Source
+/I C:\Users\sofie\Documents\Projects\CPP-Unreal\CPPUnrealIntro\Intermediate\Build\Win64\UnrealEditor\Inc\CPPUnrealIntro\UHT
+/I C:\Users\sofie\Documents\Projects\CPP-Unreal\CPPUnrealIntro\Source
 /external:W0
 /external:I ThirdParty\mimalloc\include
 /external:I ThirdParty\LibTiff\Source\Win64
@@ -283,12 +283,12 @@ C:\Users\sofie\Documents\Projects\CPPUnrealIntro\CPPUnrealIntro\Intermediate\Bui
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\winrt"
-/FI"C:\Users\sofie\Documents\Projects\CPPUnrealIntro\CPPUnrealIntro\Intermediate\Build\Win64\x64\CPPUnrealIntroEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h"
-/FI"C:\Users\sofie\Documents\Projects\CPPUnrealIntro\CPPUnrealIntro\Intermediate\Build\Win64\x64\UnrealEditor\Development\CPPUnrealIntro\Definitions.CPPUnrealIntro.h"
-/Yu"C:\Users\sofie\Documents\Projects\CPPUnrealIntro\CPPUnrealIntro\Intermediate\Build\Win64\x64\CPPUnrealIntroEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h"
-/Fp"C:\Users\sofie\Documents\Projects\CPPUnrealIntro\CPPUnrealIntro\Intermediate\Build\Win64\x64\CPPUnrealIntroEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.pch"
-/Fo"C:\Users\sofie\Documents\Projects\CPPUnrealIntro\CPPUnrealIntro\Intermediate\Build\Win64\x64\UnrealEditor\Development\CPPUnrealIntro\MyActor.gen.cpp.lc.obj"
-/sourceDependencies"C:\Users\sofie\Documents\Projects\CPPUnrealIntro\CPPUnrealIntro\Intermediate\Build\Win64\x64\UnrealEditor\Development\CPPUnrealIntro\MyActor.gen.cpp.dep.lc.json"
+/FI"C:\Users\sofie\Documents\Projects\CPP-Unreal\CPPUnrealIntro\Intermediate\Build\Win64\x64\CPPUnrealIntroEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h"
+/FI"C:\Users\sofie\Documents\Projects\CPP-Unreal\CPPUnrealIntro\Intermediate\Build\Win64\x64\UnrealEditor\Development\CPPUnrealIntro\Definitions.CPPUnrealIntro.h"
+/Yu"C:\Users\sofie\Documents\Projects\CPP-Unreal\CPPUnrealIntro\Intermediate\Build\Win64\x64\CPPUnrealIntroEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h"
+/Fp"C:\Users\sofie\Documents\Projects\CPP-Unreal\CPPUnrealIntro\Intermediate\Build\Win64\x64\CPPUnrealIntroEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.pch"
+/Fo"C:\Users\sofie\Documents\Projects\CPP-Unreal\CPPUnrealIntro\Intermediate\Build\Win64\x64\UnrealEditor\Development\CPPUnrealIntro\MyActor.gen.cpp.lc.obj"
+/sourceDependencies"C:\Users\sofie\Documents\Projects\CPP-Unreal\CPPUnrealIntro\Intermediate\Build\Win64\x64\UnrealEditor\Development\CPPUnrealIntro\MyActor.gen.cpp.dep.lc.json"
 /Zc:inline
 /nologo
 /Oi

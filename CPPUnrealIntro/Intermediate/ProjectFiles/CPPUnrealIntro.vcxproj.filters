@@ -75,5 +75,11 @@
     <ClInclude Include="..\..\Source\CPPUnrealIntro\SpawnManager.h">
       <Filter>Source\CPPUnrealIntro</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\CPPUnrealIntro\SpawnPointObject.cpp">
+      <Filter>Source\CPPUnrealIntro</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CPPUnrealIntro\SpawnPointObject.h">
+      <Filter>Source\CPPUnrealIntro</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

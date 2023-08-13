@@ -1,4 +1,4 @@
-C:\Users\sofie\Documents\Projects\CPPUnrealIntro\CPPUnrealIntro\Intermediate\Build\Win64\x64\CPPUnrealIntroEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.cpp
+C:\Users\sofie\Documents\Projects\CPP-Unreal\CPPUnrealIntro\Intermediate\Build\Win64\x64\CPPUnrealIntroEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.cpp
 /I .
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Engine\UHT
 /I ..\Shaders\Shared
@@ -286,10 +286,10 @@ C:\Users\sofie\Documents\Projects\CPPUnrealIntro\CPPUnrealIntro\Intermediate\Bui
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\winrt"
-/Yc"C:\Users\sofie\Documents\Projects\CPPUnrealIntro\CPPUnrealIntro\Intermediate\Build\Win64\x64\CPPUnrealIntroEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h"
-/Fp"C:\Users\sofie\Documents\Projects\CPPUnrealIntro\CPPUnrealIntro\Intermediate\Build\Win64\x64\CPPUnrealIntroEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.pch"
-/Fo"C:\Users\sofie\Documents\Projects\CPPUnrealIntro\CPPUnrealIntro\Intermediate\Build\Win64\x64\CPPUnrealIntroEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.lc.obj"
-/sourceDependencies"C:\Users\sofie\Documents\Projects\CPPUnrealIntro\CPPUnrealIntro\Intermediate\Build\Win64\x64\CPPUnrealIntroEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.dep.lc.json"
+/Yc"C:\Users\sofie\Documents\Projects\CPP-Unreal\CPPUnrealIntro\Intermediate\Build\Win64\x64\CPPUnrealIntroEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h"
+/Fp"C:\Users\sofie\Documents\Projects\CPP-Unreal\CPPUnrealIntro\Intermediate\Build\Win64\x64\CPPUnrealIntroEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.pch"
+/Fo"C:\Users\sofie\Documents\Projects\CPP-Unreal\CPPUnrealIntro\Intermediate\Build\Win64\x64\CPPUnrealIntroEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.lc.obj"
+/sourceDependencies"C:\Users\sofie\Documents\Projects\CPP-Unreal\CPPUnrealIntro\Intermediate\Build\Win64\x64\CPPUnrealIntroEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.dep.lc.json"
 /Zc:inline
 /nologo
 /Oi
