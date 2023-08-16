@@ -1,9 +1,9 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "SpawnManager.h"
 #include "GameFramework/Actor.h"
 #include "SpawnPointObject.generated.h"
-#include "SpawnManager.h"
 
 UCLASS(BlueprintType, Blueprintable)
 class CPPUNREALINTRO_API ASpawnPointObject : public AActor
@@ -11,21 +11,24 @@ class CPPUNREALINTRO_API ASpawnPointObject : public AActor
 	GENERATED_BODY()
 	
 public:	
-	// Sets default values for this actor's properties
 	ASpawnPointObject();
 
-	float Radius{ 200 };
-	int NumberOfSpawns{ 3 };
+	float Radius{ 100 };
+	int NumberOfSpawns{ 4 };
 
 private:
-	SpawnManager* SpawnManager;
+	USpawnManager* SpawnManager;
 
-protected:
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
+public:
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+	TSoftClassPtr<AMyActor> ActorClass;
+
+	UPROPERTY(BlueprintReadWrite)
+		UClass* LoadedObject;
 
 public:	
-	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	UFUNCTION(BlueprintCallable)
+		void LoadActorClass();
 };

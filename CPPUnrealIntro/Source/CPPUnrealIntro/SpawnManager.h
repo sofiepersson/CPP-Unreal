@@ -8,15 +8,15 @@
 /**
  * 
  */
-UCLASS()
+UCLASS(BlueprintType, Blueprintable)
 class CPPUNREALINTRO_API USpawnManager : public UWorldSubsystem
 {
 	GENERATED_BODY()
 
 private:
-	TArray<AMyActor*> SpawnedObjects{};
+	TArray<AMyActor*> SpawnedObjects;
 
 public:
 	UFUNCTION(BlueprintCallable, Category = "SpawnManager")
-	void Spawn(FVector SpawnLocation);
+		void Spawn(FVector SpawnLocation, UClass* LoadedObject);
 };

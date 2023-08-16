@@ -1,17 +1,16 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
-
 #pragma once
 
 #include "CoreMinimal.h"
+#include "MyActor.h"
+#include "SpawnManager.h"
 #include "GameFramework/GameModeBase.h"
 #include "CPPUnrealIntroGameModeBase.generated.h"
 
 /**
  * 
  */
-UCLASS()
+UCLASS(BlueprintType, Blueprintable)
 class CPPUNREALINTRO_API ACPPUnrealIntroGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
-	
 };

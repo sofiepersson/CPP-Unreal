@@ -37,9 +37,11 @@ void EmptyLinkFunctionForGeneratedCodeCPPUnrealIntroGameModeBase() {}
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACPPUnrealIntroGameModeBase_Statics::Class_MetaDataParams[] = {
+		{ "BlueprintType", "true" },
 		{ "Comment", "/**\n * \n */" },
 		{ "HideCategories", "Info Rendering MovementReplication Replication Actor Input Movement Collision Rendering HLOD WorldPartition DataLayers Transformation" },
 		{ "IncludePath", "CPPUnrealIntroGameModeBase.h" },
+		{ "IsBlueprintBase", "true" },
 		{ "ModuleRelativePath", "CPPUnrealIntroGameModeBase.h" },
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 	};
@@ -82,9 +84,9 @@ void EmptyLinkFunctionForGeneratedCodeCPPUnrealIntroGameModeBase() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_sofie_Documents_Projects_CPP_Unreal_CPPUnrealIntro_Source_CPPUnrealIntro_CPPUnrealIntroGameModeBase_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ACPPUnrealIntroGameModeBase, ACPPUnrealIntroGameModeBase::StaticClass, TEXT("ACPPUnrealIntroGameModeBase"), &Z_Registration_Info_UClass_ACPPUnrealIntroGameModeBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACPPUnrealIntroGameModeBase), 4250770280U) },
+		{ Z_Construct_UClass_ACPPUnrealIntroGameModeBase, ACPPUnrealIntroGameModeBase::StaticClass, TEXT("ACPPUnrealIntroGameModeBase"), &Z_Registration_Info_UClass_ACPPUnrealIntroGameModeBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACPPUnrealIntroGameModeBase), 595972312U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_sofie_Documents_Projects_CPP_Unreal_CPPUnrealIntro_Source_CPPUnrealIntro_CPPUnrealIntroGameModeBase_h_499432391(TEXT("/Script/CPPUnrealIntro"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_sofie_Documents_Projects_CPP_Unreal_CPPUnrealIntro_Source_CPPUnrealIntro_CPPUnrealIntroGameModeBase_h_3347903801(TEXT("/Script/CPPUnrealIntro"),
 		Z_CompiledInDeferFile_FID_Users_sofie_Documents_Projects_CPP_Unreal_CPPUnrealIntro_Source_CPPUnrealIntro_CPPUnrealIntroGameModeBase_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_sofie_Documents_Projects_CPP_Unreal_CPPUnrealIntro_Source_CPPUnrealIntro_CPPUnrealIntroGameModeBase_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

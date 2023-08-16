@@ -75,7 +75,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{47224172-E8F9-3EDC-8509-2FD768B3603E}</ProjectGuid>
+    <ProjectGuid>{27DC1698-C8A9-3994-B68C-EF075B4EEF2D}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>CPPUnrealIntro</RootNamespace>
     <PlatformToolset>v143</PlatformToolset>
