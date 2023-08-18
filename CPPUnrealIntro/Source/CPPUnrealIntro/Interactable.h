@@ -19,5 +19,5 @@ class CPPUNREALINTRO_API IInteractable
 	GENERATED_BODY()
 
 public:
-	/*virtual void Interact();*/
+	virtual void Interact();
 };

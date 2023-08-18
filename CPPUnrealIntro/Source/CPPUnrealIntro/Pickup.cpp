@@ -8,3 +8,8 @@ APickup::APickup()
 	RotatorComponent = CreateDefaultSubobject<URotatorComponent>(TEXT("Rotator"));
 }
 
+void APickup::Interact()
+{
+
+}
+
