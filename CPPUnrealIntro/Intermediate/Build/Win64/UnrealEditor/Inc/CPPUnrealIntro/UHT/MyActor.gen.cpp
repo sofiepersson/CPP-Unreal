@@ -11,6 +11,7 @@ void EmptyLinkFunctionForGeneratedCodeMyActor() {}
 // Cross Module References
 	CPPUNREALINTRO_API UClass* Z_Construct_UClass_AMyActor();
 	CPPUNREALINTRO_API UClass* Z_Construct_UClass_AMyActor_NoRegister();
+	CPPUNREALINTRO_API UClass* Z_Construct_UClass_UCollector_NoRegister();
 	CPPUNREALINTRO_API UClass* Z_Construct_UClass_URotatorComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_CPPUnrealIntro();
@@ -33,6 +34,10 @@ void EmptyLinkFunctionForGeneratedCodeMyActor() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_RotatorComponent_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_RotatorComponent;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_Collector_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_Collector;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -57,8 +62,17 @@ void EmptyLinkFunctionForGeneratedCodeMyActor() {}
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyActor_Statics::NewProp_RotatorComponent = { "RotatorComponent", nullptr, (EPropertyFlags)0x001000000008000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(AMyActor, RotatorComponent), Z_Construct_UClass_URotatorComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMyActor_Statics::NewProp_RotatorComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyActor_Statics::NewProp_RotatorComponent_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyActor_Statics::NewProp_Collector_MetaData[] = {
+		{ "Category", "MyActor" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "MyActor.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyActor_Statics::NewProp_Collector = { "Collector", nullptr, (EPropertyFlags)0x001000000008000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(AMyActor, Collector), Z_Construct_UClass_UCollector_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMyActor_Statics::NewProp_Collector_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyActor_Statics::NewProp_Collector_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMyActor_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyActor_Statics::NewProp_RotatorComponent,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyActor_Statics::NewProp_Collector,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AMyActor_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AMyActor>::IsAbstract,
@@ -97,9 +111,9 @@ void EmptyLinkFunctionForGeneratedCodeMyActor() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_sofie_Documents_Projects_CPP_Unreal_CPPUnrealIntro_Source_CPPUnrealIntro_MyActor_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AMyActor, AMyActor::StaticClass, TEXT("AMyActor"), &Z_Registration_Info_UClass_AMyActor, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMyActor), 669411871U) },
+		{ Z_Construct_UClass_AMyActor, AMyActor::StaticClass, TEXT("AMyActor"), &Z_Registration_Info_UClass_AMyActor, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMyActor), 1196288113U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_sofie_Documents_Projects_CPP_Unreal_CPPUnrealIntro_Source_CPPUnrealIntro_MyActor_h_2528937585(TEXT("/Script/CPPUnrealIntro"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_sofie_Documents_Projects_CPP_Unreal_CPPUnrealIntro_Source_CPPUnrealIntro_MyActor_h_3829821996(TEXT("/Script/CPPUnrealIntro"),
 		Z_CompiledInDeferFile_FID_Users_sofie_Documents_Projects_CPP_Unreal_CPPUnrealIntro_Source_CPPUnrealIntro_MyActor_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_sofie_Documents_Projects_CPP_Unreal_CPPUnrealIntro_Source_CPPUnrealIntro_MyActor_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

@@ -42,6 +42,12 @@
     <Filter Include="Source\CPPUnrealIntro">
       <UniqueIdentifier>{3907A4B6-FDF6-3E2A-BD70-49889CBC30E8}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\CPPUnrealIntro\Collector.cpp">
+      <Filter>Source\CPPUnrealIntro</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CPPUnrealIntro\Collector.h">
+      <Filter>Source\CPPUnrealIntro</Filter>
+    </ClInclude>
     <None Include="..\..\Source\CPPUnrealIntro\CPPUnrealIntro.Build.cs">
       <Filter>Source\CPPUnrealIntro</Filter>
     </None>
@@ -57,10 +63,22 @@
     <ClInclude Include="..\..\Source\CPPUnrealIntro\CPPUnrealIntroGameModeBase.h">
       <Filter>Source\CPPUnrealIntro</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\CPPUnrealIntro\Interactable.cpp">
+      <Filter>Source\CPPUnrealIntro</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CPPUnrealIntro\Interactable.h">
+      <Filter>Source\CPPUnrealIntro</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\CPPUnrealIntro\MyActor.cpp">
       <Filter>Source\CPPUnrealIntro</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\CPPUnrealIntro\MyActor.h">
+      <Filter>Source\CPPUnrealIntro</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CPPUnrealIntro\Pickup.cpp">
+      <Filter>Source\CPPUnrealIntro</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CPPUnrealIntro\Pickup.h">
       <Filter>Source\CPPUnrealIntro</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\CPPUnrealIntro\RotatorComponent.cpp">

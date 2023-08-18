@@ -21,7 +21,7 @@ private:
 
 public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
-	TSoftClassPtr<AMyActor> ActorClass;
+	TSoftClassPtr<APickup> ActorClass;
 
 	UPROPERTY(BlueprintReadWrite)
 		UClass* LoadedObject;
