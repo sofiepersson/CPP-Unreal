@@ -12,7 +12,10 @@
 				"C:/Users/sofie/Documents/Projects/CPP-Unreal/CPPUnrealIntro/Content/BP_GameMode.uasset",
 				"C:/Users/sofie/Documents/Projects/CPP-Unreal/CPPUnrealIntro/Content/BP_MyActor.uasset",
 				"C:/Users/sofie/Documents/Projects/CPP-Unreal/CPPUnrealIntro/Content/BP_PlayableActor.uasset",
-				"C:/Users/sofie/Documents/Projects/CPP-Unreal/CPPUnrealIntro/Content/BP_Pickup.uasset"
+				"C:/Users/sofie/Documents/Projects/CPP-Unreal/CPPUnrealIntro/Content/BP_Pickup.uasset",
+				"C:/Program Files/Epic Games/UE_5.2/Engine/Content/BasicShapes/BasicShapeMaterial.uasset",
+				"C:/Users/sofie/Documents/Projects/CPP-Unreal/CPPUnrealIntro/Content/IMC_PlayerMove.uasset",
+				"C:/Users/sofie/Documents/Projects/CPP-Unreal/CPPUnrealIntro/Content/IA_PlayerMove.uasset"
 			]
 		}
 	]

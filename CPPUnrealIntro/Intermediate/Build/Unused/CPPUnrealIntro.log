@@ -2,6 +2,10 @@
   Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" CPPUnrealIntroEditor Win64 DebugGame -Project="C:\Users\sofie\Documents\Projects\CPP-Unreal\CPPUnrealIntro\CPPUnrealIntro.uproject" -WaitMutex -FromMsBuild
   Log file: C:\Users\sofie\AppData\Local\UnrealBuildTool\Log.txt
   Using 'git status' to determine working set for adaptive non-unity build (C:\Users\sofie\Documents\Projects\CPP-Unreal).
+  Parsing headers for CPPUnrealIntroEditor
+    Running Internal UnrealHeaderTool C:\Users\sofie\Documents\Projects\CPP-Unreal\CPPUnrealIntro\CPPUnrealIntro.uproject C:\Users\sofie\Documents\Projects\CPP-Unreal\CPPUnrealIntro\Intermediate\Build\Win64\CPPUnrealIntroEditor\DebugGame\CPPUnrealIntroEditor.uhtmanifest -WarningsAsErrors -installed
+  Total of 0 written
+  Reflection code generated for CPPUnrealIntroEditor in 0.8141942 seconds
   Building CPPUnrealIntroEditor...
   Using Visual Studio 2022 14.34.31946 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933) and Windows 10.0.22000.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   [Upgrade]
@@ -12,12 +16,18 @@
   [Upgrade]
   Determining max actions to execute in parallel (6 physical cores, 12 logical cores)
     Executing up to 6 processes, one per physical core
-  Building 4 actions with 4 processes...
-  [1/4] Compile [x64] Interactable.cpp
-  [2/4] Link [x64] UnrealEditor-CPPUnrealIntro-Win64-DebugGame.lib
+    Requested 1.5 GB free memory per action, 5.85 GB available: limiting max parallel actions to 3
+  Building 9 actions with 3 processes...
+  [1/9] Compile [x64] Collector.gen.cpp
+  [2/9] Compile [x64] Collector.cpp
+  [3/9] Compile [x64] CPPUnrealIntroGameModeBase.cpp
+  [4/9] Compile [x64] MyActor.cpp
+  [5/9] Compile [x64] MyActor.gen.cpp
+  [6/9] Compile [x64] CPPUnrealIntroGameModeBase.gen.cpp
+  [7/9] Link [x64] UnrealEditor-CPPUnrealIntro-Win64-DebugGame.lib
      Creating library C:\Users\sofie\Documents\Projects\CPP-Unreal\CPPUnrealIntro\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\CPPUnrealIntro\UnrealEditor-CPPUnrealIntro-Win64-DebugGame.lib and object C:\Users\sofie\Documents\Projects\CPP-Unreal\CPPUnrealIntro\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\CPPUnrealIntro\UnrealEditor-CPPUnrealIntro-Win64-DebugGame.exp
-  [3/4] Link [x64] UnrealEditor-CPPUnrealIntro-Win64-DebugGame.dll
+  [8/9] Link [x64] UnrealEditor-CPPUnrealIntro-Win64-DebugGame.dll
      Creating library C:\Users\sofie\Documents\Projects\CPP-Unreal\CPPUnrealIntro\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\CPPUnrealIntro\UnrealEditor-CPPUnrealIntro-Win64-DebugGame.suppressed.lib and object C:\Users\sofie\Documents\Projects\CPP-Unreal\CPPUnrealIntro\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\CPPUnrealIntro\UnrealEditor-CPPUnrealIntro-Win64-DebugGame.suppressed.exp
-  [4/4] WriteMetadata CPPUnrealIntroEditor-Win64-DebugGame.target
-  Total time in Parallel executor: 1.12 seconds
-  Total execution time: 1.58 seconds
+  [9/9] WriteMetadata CPPUnrealIntroEditor-Win64-DebugGame.target
+  Total time in Parallel executor: 2.02 seconds
+  Total execution time: 3.35 seconds

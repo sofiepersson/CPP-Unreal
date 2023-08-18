@@ -1,4 +1,5 @@
 #include "Pickup.h"
+#include "DrawDebugHelpers.h"
 
 // Sets default values
 APickup::APickup()
@@ -10,6 +11,7 @@ APickup::APickup()
 
 void APickup::Interact()
 {
-
+	DrawDebugString(GetWorld(), FVector(100, 100, 0), "Picked it up!", nullptr, FColor::Red, 1);
+	Destroy();
 }
 

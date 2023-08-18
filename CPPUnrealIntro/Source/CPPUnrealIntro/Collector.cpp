@@ -1,34 +1,29 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-
 #include "Collector.h"
+#include "Pickup.h"
+#include "SpawnManager.h"
 
-// Sets default values for this component's properties
 UCollector::UCollector()
 {
-	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
-	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
-
-	// ...
 }
 
-
-// Called when the game starts
-void UCollector::BeginPlay()
-{
-	Super::BeginPlay();
-
-	// ...
-	
-}
-
-
-// Called every frame
 void UCollector::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-
-	// ...
+	//Find the pickup object that is closest to the player
+	APickup* BestTarget{nullptr};
+	float BestDistance{FLT_MAX};
+	auto SpawnManager = GetWorld()->GetSubsystem<USpawnManager>();
+	auto PotentialTargets = SpawnManager->SpawnedObjects;
+	for (auto i = 0; i < PotentialTargets.Num(); ++i)
+	{
+		float Distance = FVector::Dist(PotentialTargets[i]->GetActorLocation(), GetOwner()->GetActorLocation());
+		if (Distance < BestDistance) {
+			BestDistance = Distance;
+			BestTarget = PotentialTargets[i];
+		}
+	}
+	if (BestDistance < PickupRadius)
+		BestTarget->Interact();
 }
 

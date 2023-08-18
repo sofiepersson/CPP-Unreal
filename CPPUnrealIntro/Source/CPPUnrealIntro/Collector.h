@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "SpawnManager.h"
 #include "Components/ActorComponent.h"
 #include "Collector.generated.h"
 
@@ -12,17 +13,11 @@ class CPPUNREALINTRO_API UCollector : public UActorComponent
 {
 	GENERATED_BODY()
 
-public:	
-	// Sets default values for this component's properties
+private:
 	UCollector();
 
-protected:
-	// Called when the game starts
-	virtual void BeginPlay() override;
+	float PickupRadius{150};
 
 public:	
-	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
-
-		
 };

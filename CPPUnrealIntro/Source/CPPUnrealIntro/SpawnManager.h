@@ -13,10 +13,9 @@ class CPPUNREALINTRO_API USpawnManager : public UWorldSubsystem
 {
 	GENERATED_BODY()
 
-private:
+public:
 	TArray<APickup*> SpawnedObjects;
 
-public:
 	UFUNCTION(BlueprintCallable, Category = "SpawnManager")
 		void Spawn(FVector SpawnLocation, UClass* LoadedObject);
 };
